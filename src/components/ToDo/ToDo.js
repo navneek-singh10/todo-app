@@ -35,7 +35,7 @@ const deleteItems=(id)=>{
    <label className="todolabel">What do you want to do today?</label>
    <br />
    <br/>
-   <input type="text" placeholder='type something...' className="input" value={data}  onChange={inputText} />
+   <input type="text" placeholder='Type Something...' className="input" value={data}  onChange={inputText} />
    <button className="button" type="submit" onClick={storeText}>Add</button>
  </form>
  <br/>
