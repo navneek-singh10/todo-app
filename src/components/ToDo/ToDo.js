@@ -26,8 +26,10 @@ const deleteItems=(id)=>{
 
   return (
  <div className='outer-div'>
- <div className='center-div'>
   <br/>
+  <br/>
+ <div className='center-div'>
+
  <header className="App-header">
    <h1>TO DO</h1>
  </header>
@@ -39,7 +41,7 @@ const deleteItems=(id)=>{
    <button className="button" type="submit" onClick={storeText}>Add</button>
  </form>
  <br/>
- <div className='internal-div'>
+ <div>
  {item.map((value, index)=>{
   return (
     <ShowToDo

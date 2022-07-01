@@ -1,3 +1,30 @@
 .internal-div-1{
-    padding: 10px 0;
+    text-align:justify;
+    border-radius: 8px;
+    background-color:coral;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 3%;
+    padding: 8px;
+    border-style: solid;
+}
+
+.delete{
+    margin-left: 10px;
+    background-color:rebeccapurple;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+}
+.checkbox{
+    margin-left: 50px;
+    width: 20px;
+    height: 2vh;
+}
+.list{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

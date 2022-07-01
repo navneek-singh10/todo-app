@@ -1,32 +1,39 @@
 .outer-div{
-  background-color:springgreen;
-
+  background-color:rgb(120, 110, 181);
+  height: 100vh;
 }
-
+.center-div{
+  background-color:bisque;
+  padding-bottom: 8%;
+  width: 30%;
+ margin-left: 35%;
+ border-radius: 30px;
+}
 
 
 
 .App-header{
     min-height: 10vh;
-    
     display: flex;
-    margin: 40px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
     font-size: larger;
   }
 
   .todolabel{
-    font-size: 30px;
+    font-size: 25px;
   }
   .input{
-    width: 50%;
+    width: 40%;
     padding: 15px 20px;
     margin: 8px 0;
     display: inline-block;
     border-radius: 10px;
     border: 1px solid gray;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
   }
   .button{
     background-color:rebeccapurple;
@@ -39,7 +46,4 @@
     margin-left: 10px;
     cursor: pointer;
     border-radius: 10px;
-  }
-  .internal-div{
-    padding: 15px 25px;
   }
