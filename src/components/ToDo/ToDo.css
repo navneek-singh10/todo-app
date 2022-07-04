@@ -1,13 +1,15 @@
 .outer-div{
   background-color:rgb(120, 110, 181);
-  height:500vh;
+  height:100vh;
+  overflow-y:scroll;
 }
 .center-div{
   background-color:rgb(244, 219, 188);
-  padding-bottom: 8%;
+  padding-bottom: 7%;
   width: 30%;
  margin-left: 35%;
  border-radius: 30px;
+ 
 }
 
 
