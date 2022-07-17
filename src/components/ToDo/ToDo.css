@@ -1,5 +1,5 @@
 .outer-div{
-  background-image:linear-gradient( rgb(58, 23, 94), rgb(212, 175, 130));
+  background-image:linear-gradient(to bottom right, rgb(58, 23, 94), rgb(212, 175, 130));
   height:100vh;
   overflow-y: scroll;
   
