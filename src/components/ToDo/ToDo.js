@@ -12,7 +12,7 @@ setData(event.target.value)
 }
 
 const storeText=(e)=>{
-  e.preventDefault()
+  e.preventDefault();
  const newData = data
  setItem([...item, newData])
  setData("")
