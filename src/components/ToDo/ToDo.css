@@ -1,7 +1,7 @@
 .outer-div{
   background-image:linear-gradient(to bottom right, rgb(58, 23, 94), rgb(212, 175, 130));
   height:100vh;
-  overflow-y: scroll;
+  overflow-y: hidden;
   
 }
 .center-div{
@@ -9,7 +9,10 @@
   padding-bottom: 7%;
   width: 30%;
  margin-left: 35%;
+ margin-bottom: 5px;
  border-radius: 30px;
+ height: 40vh;
+ overflow-y: scroll;
 }
 
 
@@ -52,9 +55,12 @@
 
   ::-webkit-scrollbar{
     width: 15px;
+    position: relative;
+    right: -15px;
   }
   ::-webkit-scrollbar-track{
     background-color: rgb(212, 175, 130);
+    border-radius: 20px;
   }
   ::-webkit-scrollbar-thumb{
     background-color:rgb(58, 23, 94);
